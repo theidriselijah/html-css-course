@@ -57,8 +57,71 @@
     .tweet-button:hover {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
     }
+
+    .pagination-button {
+        padding: 5px 5px;
+        transition: padding 1s;
+    }
+
+    .stretch-button {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        transition: padding 1s;
+        cursor: pointer;
+    }
+
+    .stretch-button:hover {
+        padding: 20px 40px;
+    }
+
+    .shadow-button {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .shadow-button:active {
+        margin: 0 3px 0 3px;
+        box-shadow: none;
+    }
+
+    .grow-button {
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 8px 0;
+        cursor: pointer;
+
+        padding: 0 15px;
+        margin: 0 10px;
+
+        transition: padding
+        0.15s, margin 0.15s;
+    }
+
+    .grow-button:hover {
+        padding: 0 25px;
+        margin: 0px;
+    }
 </style>
 
 <button class="subscribe-button">SUBSCRIBE</button>
 <button class="join-button">JOIN</button>
 <button class="tweet-button">Tweet</button>
+<button class="pagination-button">Back</button>
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<button class="pagination-button">Next</button>
+<button class="stretch-button">Stretch</button>
+<button class="shadow-button">Shadow</button>
+<button class="grow-button">One</button>
+<button class="grow-button">Two</button>
+<button class="grow-button">Three</button>
